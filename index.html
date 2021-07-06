@@ -22,11 +22,11 @@
         </div>
         <div class="navbar">
             <ul>
-                <li><a class="active" href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">OUR RECIPE</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#recipe">OUR RECIPE</a></li>
+                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
 
@@ -34,7 +34,7 @@
     <!-- End Top Menu -->
 
     <!-- Start Hero Section -->
-    <section class="hero-section">
+    <section class="hero-section" id="home">
         <div class="sub-hero">
             <h1><span class="color-text">Skip</span> The Diet,</h1>
             <h1>Just Eat Healthy</h1>
@@ -50,22 +50,22 @@
     <!-- End Hero Section -->
 
     <!-- Start About Section -->
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="sub-about">
             <img src="images/female/Person Image.png" alt="Food Buzz">
         </div>
 
         <div class="sub-about">
-            <h2>About Me</h2>
-            <p>I consider myself equipped with most of web development<br> skills, but I know I still need to learn a lot more. I am highly<br>trainable and can easily learn tasks. If I don't have experience<br> with software or skill, I am doing all the research to study it.</p>
+            <h2>About us</h2>
+            <p>Delicious meals, side dishes, and sweets that may or may not have bacon in them. Excellent DIY section, and inspiring ideas for eating and entertaining.Holisitic eating is made simple, tasty, and approachable with Sarah’s recipes and explanations. She has recipes for every occasion, along with events, videos, and an app.</p>
             <a class="order-link" href="https://gooogle.com">Contact Me</a>
         </div>
     </section>
     <!-- End About Section -->
 
     <!-- Start My Recipe Section -->
-    <section class="my-recipe">
-        <h2>My Recipies</h2>
+    <section class="my-recipe" id="recipe">
+        <h2>Our Recipies</h2>
         <p class="recipe-description">The Kitchen Stories team has been working hard on something new, something big, and it’s finally here: From here on out, you can upload your very own recipes to our app and share them with our global community! Uploading a recipe is not only easy, but a lot of fun, as you can share your creativity with step photos and videos in addition to your recipe text. With enough recipes uploaded, you can even create your own digital cookbook to have all your recipes at a glance, alongside ours.</p>
 
         <div class="recipe-box">
@@ -112,9 +112,57 @@
     </section>
     <!-- End Subscriber Section -->
 
+    <!-- Start Blog Section -->
+
+    <section class="blog-section" id="blog">
+        <h2 class="blog-heading">Our Blog</h2>
+        <p class="blog-description">Food blogging represents a complex interweaving of “foodie” or gourmet interest in cooking with those of blog writing and photography. The majority of blogs use pictures taken by the author himself/herself and some of them focus specifically on food photography.</p>
+
+       <div class="blog-box">
+            <div class="all-box">
+                <a href="#" target="_blank"><img src="images/food/Project Cover.jpg" alt="blog-image"></a>
+                <a href="#"><h2>Blog 1</h2></a>
+                <p>Want to start a food blog but don’t know where to start? I know how frustrating it can be to deal with technical stuff when you really just want to share that killer recipe. Whether you want to start a cooking blog, or you want to become a more successful food blogger, I hope these tips will ease your technical troubles.</p>
+            
+            </div>
+
+            <div class="all-box">
+                <a href="#" target="_blank"><img src="images/food/Project Cover1.jpg" alt="blog-image"></a>
+                <a href="#"><h2>Blog 2</h2></a>
+                <p>Here are the basic steps to set up a self-hosted WordPress food blog that is both beautiful and functional. Your blog will have your own domain name and your own distinct look, and it will be able to scale with you as your blog grows. When you’re starting a food blog, I recommend following these steps for a greater shot at success.</p>
+            </div>
+
+            <div class="all-box">
+                <a href="#"><img src="images/food/Project Cover.png" alt="blog-image"></a>
+                <a href="#"><h2>Blog 3</h2></a>
+                <p>Coming up with a name for your new blog might be the hardest step. You can start brainstorming by coming up with a short mission statement or by listing words that describe your cooking style, your lifestyle, your background, etc. Throw in your name and/or your dog’s name. ;) Talk it out with friends. There are tons of great names out there that aren’t yet taken, I promise!</p>
+            </div>
+       </div>
+
+    </section>
+    <!-- End Blog Section -->
+
+    <!-- Start Contact Form -->
+    <section class="contact-us" id="contact">
+        <h2>If your are hungry, let just us know!</h2>
+        <form action="#">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+
+            <input class="order-link" type="submit" value="Submit">
+        </form>
+    </section>
+    <!-- End Contact Form -->
+
     <!-- Start Footer Section -->
     <footer>
-        <img src="images/food-buzz-without-bg.png" alt="">
+        <h1><span class="color-text">Food</span> Buzz</h1>
         <p>Eat Healthy To Live Healthy, Live Healthy To Live Happy</p>
     </footer>
     <!-- End Footer Section -->
