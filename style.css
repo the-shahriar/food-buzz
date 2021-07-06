@@ -142,3 +142,30 @@ h2 {
 .sub-box img {
   width: 100%;
 }
+
+.follower {
+  padding-left: 10%;
+  padding-right: 5%;
+  margin-bottom: 100px;
+}
+
+.all-subscriber {
+  display: flex;
+  padding-left: 15%;
+  box-shadow: 10px 10px 40px gray;
+  width: 80%;
+}
+
+.subscriber-box {
+  width: 33.33%;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  padding: 20px 0;
+}
+
+footer p {
+  color: white;
+}
